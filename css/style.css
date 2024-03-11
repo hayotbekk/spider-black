@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+
+
+.container {
+    width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background: #131313;
+
+}
+
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: right;
+    padding-top: 76px;
+
+    margin-bottom: -100px;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: white;
+
+
+    position: relative;
+    cursor: pointer;
+}
+
+
+.nav-link::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: all ease 0.4s;
+}
+
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+.hero-left-img {
+    width: 400px;
+
+}
+
+
+
+
+.hero-h1 {
+    width: 760px;
+    font-size: 108px;
+    font-weight: 400;
+    line-height: 155px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-family: "Irish Grover", system-ui;
+}
+
+.hero-left-p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    width: 482px;
+    margin-bottom: 80px;
+
+}
+
+
+.hero-right-btn {
+    padding: 14px 61px;
+    color: white;
+    background: #424242;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+
+
+}
